@@ -11,7 +11,7 @@ let name = "Tushar"
 let age = 19
 let isLoggedIn = true
 let userState; // it is undefined meanse not assigned value
-let userCity = null; // this is a value for empty 
+let userCity = null; // this is a value for empty => object
 
 // number => 2 to power 52
 // bigint => when store large number
