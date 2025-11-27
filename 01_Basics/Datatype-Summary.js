@@ -33,4 +33,32 @@ const myFunction = function() { // Type called Object Function
     console.log("Hello Tushar")
 }
 
-console.log(typeof myFunction) 
+console.log(typeof myFunction)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) // Data ni copy male, Heap (Non-Primitive) // Give original value reference
+
+
+// Primitive(Stack) It is give copy of data not original data
+let instaId = "tushar__parmar"
+let secondId = instaId
+instaId = "bhavesh__parmar"
+
+console.log(secondId)
+console.log(instaId)
+
+
+
+// Non-Primitive(Heap) It is give Original reference 
+let userOne = {
+    email: "trp@gmail.com",
+    pass: "7841"
+}
+
+let userTwo = userOne
+
+userTwo.email = "brp@gmail.com"
+userTwo.pass = "1452"
+console.log(userTwo)
