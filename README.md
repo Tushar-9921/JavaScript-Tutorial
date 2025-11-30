@@ -32,3 +32,4 @@
 ## Part - 2 Basics
 
 => Array
+    push, pop, length
